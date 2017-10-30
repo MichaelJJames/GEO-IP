@@ -84,7 +84,7 @@ class GEOTrack {
 
 	}
 	
-	// returns ZipCode
+	// returns Time Zone
 	public static function timeZone($ip) {
 
 		$apiURL = 'http://freegeoip.net/json/'.$ip;
